@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2020/6/22
-  Time: 18:15
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -35,13 +28,10 @@ D:<%=request.getParameter("D")%><br/>
     b=Integer.parseInt(request.getParameter("B"));
     c=Integer.parseInt(request.getParameter("C"));
     d=Integer.parseInt(request.getParameter("D"));
-
   }catch(Exception e){
-
   }
-  String result=ai.Engine.solve24(a,b,c,d);
-  out.println(result);
-
+//  String result=time_game.Engine.solve24(a,b,c,d);
+//  out.println(result);
 %>
 </body>
 </html>
