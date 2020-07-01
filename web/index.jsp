@@ -30,8 +30,8 @@ D:<%=request.getParameter("D")%><br/>
     d=Integer.parseInt(request.getParameter("D"));
   }catch(Exception e){
   }
-//  String result=time_game.Engine.solve24(a,b,c,d);
-//  out.println(result);
+  String result=time_game.Engine.solve24(a,b,c,d);
+  out.println(result);
 %>
 </body>
 </html>

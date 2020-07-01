@@ -1,4 +1,4 @@
-package ai;
+package time_game;
 
 import java.util.Collections;
 import java.util.List;
