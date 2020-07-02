@@ -20,12 +20,12 @@
     input[type=submit]{
       width: 100px;
       height: 60px;
-      background-color: #337ab7;
-      border: 1px solid #2e6da4;
+      background-color: #20B2AA;
+      border: 1px solid #20B2AA;
       color: #fff;
       font-size: 14px;
-      -webkit-box-shadow: inset 0 -4px 0 #2a6496;
-      box-shadow: inset 0 -4px 0 #2a6496;
+      -webkit-box-shadow: inset 0 -4px 0 #008B8B;
+      box-shadow: inset 0 -4px 0 #008B8B;
     }
     form{
       height: 60px;
