@@ -9,12 +9,12 @@ public class RPolandExpression {
 
     public static void main(String[] args) {
         System.out.println(eval("1 2 + 3 4 + *") == 21.0);//ok
-        System.out.println(eval("+ 1 2") == ERROR);//error
-        System.out.println(eval("1 2 +") == 3.0);
-        System.out.println(eval("5 1 5 / - 5 *"));
-        //(5 - (1/5)) *5 =24
-        System.out.println(eval("5 1 5 / - 5 *".split("\\s+")));
-        System.out.println(eval(Arrays.asList("5 1 5 / - 5 *".split("\\s+"))));
+//        System.out.println(eval("+ 1 2") == ERROR);//error
+//        System.out.println(eval("1 2 +") == 3.0);
+//        System.out.println(eval("5 1 5 / - 5 *"));
+//        //(5 - (1/5)) *5 =24
+//        System.out.println(eval("5 1 5 / - 5 *".split("\\s+")));
+//        System.out.println(eval(Arrays.asList("5 1 5 / - 5 *".split("\\s+"))));
     }
 
     public static double eval(List<String> exp) {

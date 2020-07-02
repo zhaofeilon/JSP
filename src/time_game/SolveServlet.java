@@ -25,6 +25,7 @@ public class SolveServlet extends HttpServlet {
 
         }
         String result = time_game.Engine.solve24(a, b, c, d);
+
         request.getSession().setAttribute("result",result);
         response.sendRedirect("index.jsp");
 
